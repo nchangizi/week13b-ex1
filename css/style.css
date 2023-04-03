@@ -1,3 +1,12 @@
 body {
     background-color: tan;
 }
+
+#formElements{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+label{
+    text-align: center;
+}
