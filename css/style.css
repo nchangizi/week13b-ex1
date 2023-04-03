@@ -13,7 +13,28 @@ label {
 .centerChildren {
   display: flex;
   justify-content: center;
-  /* or
+  /* or on the button:
    margin:0 auto; 
    display:block */
+}
+
+button{
+    margin: 10px 0;
+}
+@media (min-width: 600px) {
+  #formElements {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #lists{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
