@@ -1,12 +1,19 @@
 body {
-    background-color: tan;
+  background-color: tan;
 }
 
-#formElements{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+#formElements {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-label{
-    text-align: center;
+label {
+  text-align: center;
+}
+.centerChildren {
+  display: flex;
+  justify-content: center;
+  /* or
+   margin:0 auto; 
+   display:block */
 }
